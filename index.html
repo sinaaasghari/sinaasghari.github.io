@@ -686,59 +686,6 @@
     .award-detail { font-size: .78rem; color: var(--muted); line-height: 1.5; }
     .award-detail strong { color: var(--accent-h); }
 
-    /* ── Skills ───────────────────────────────────────── */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 20px;
-    }
-    .skill-group {
-      background: var(--card-fill);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 20px;
-    }
-    .skill-group-title {
-      font-size: .72rem;
-      font-family: 'JetBrains Mono', monospace;
-      text-transform: uppercase;
-      letter-spacing: .12em;
-      color: var(--accent);
-      margin-bottom: 14px;
-    }
-    .skill-chips { display: flex; flex-wrap: wrap; gap: 7px; }
-    .chip {
-      font-size: .78rem;
-      font-weight: 500;
-      padding: 4px 12px;
-      border-radius: 100px;
-      background: var(--bg3);
-      border: 1px solid var(--border2);
-      color: var(--muted);
-      transition: border-color .2s, color .2s;
-    }
-    .chip:hover { border-color: var(--accent); color: var(--text); }
-
-    /* ── Languages ────────────────────────────────────── */
-    .lang-row {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      margin-bottom: 14px;
-    }
-    .lang-name { font-size: .9rem; font-weight: 600; color: var(--text); min-width: 80px; }
-    .lang-bar-bg { flex: 1; height: 6px; background: var(--border); border-radius: 3px; }
-    .lang-bar {
-      height: 100%;
-      border-radius: 3px;
-      background: linear-gradient(90deg, var(--accent), var(--cyan));
-      transform-origin: left;
-      transform: scaleX(0);
-      transition: transform .8s ease;
-    }
-    .lang-bar.animate { transform: scaleX(1); }
-    .lang-level { font-size: .78rem; color: var(--muted); min-width: 60px; text-align: right; }
-
     /* ── Footer ───────────────────────────────────────── */
     footer {
       background: var(--bg);
@@ -1321,7 +1268,7 @@
   <footer>
     <div class="container">
       <div class="footer-name">Sina Asghari</div>
-      <div class="footer-sub">AI Engineer · LLM Systems · RAG Specialist</div>
+      <div class="footer-sub">AI Engineer · LLM Systems</div>
       <div class="footer-socials">
         <a href="https://www.linkedin.com/in/sina-asghari-8ba724219/" target="_blank" class="social-link">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
